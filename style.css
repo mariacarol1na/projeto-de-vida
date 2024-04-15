@@ -63,6 +63,35 @@ body{
     border-bottom: 4px solid var(--sublinhado);
 }
 
+abas-textos{
+    background-color: var(--cor-de-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.aba-conteudo.ativo{
+    display: block;  
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--sublinhado);
+    text-transform: uppercase;
+}
+
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
+
 
 @media screen and (min-width: 768px) {
    .botoes{
