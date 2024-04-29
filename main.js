@@ -36,7 +36,13 @@ let dias=Math.floor (horas/24);
 segundos %=60;
 minutos %=60;
 horas %=24;
-return dias+" dias "+ horas+" horas "+minutos+" minutos "+segundos+" segundos ";}
+if (tempoFinal>0){
+    return dias+" dias "+ horas+" horas "+minutos+" minutos "+segundos+" segundos ";
+    }
+    else {
+        return "PRAZO FINALIZADO";
+    }
+    }
 
 }
 }
