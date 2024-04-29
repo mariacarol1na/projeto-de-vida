@@ -42,7 +42,6 @@ if (tempoFinal>0){
     else {
         return "PRAZO FINALIZADO";
     }
-    }
 
 }
 }
